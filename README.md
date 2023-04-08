@@ -2,7 +2,7 @@
 
 有关于感知方面的学习介绍及代码链接，同步更新在[CSDN](https://blog.csdn.net/victor_manches?type=blog)，有兴趣的小哥哥小姐姐们可以点个赞收藏一下哦
 
-**深度学习课程链接: [深度学习理论与实践（视觉方向） - 深蓝学院](https://www.shenlanxueyuan.com/course/574) **
+**深度学习课程链接**: [深度学习理论与实践（视觉方向） - 深蓝学院](https://www.shenlanxueyuan.com/course/574)
 
 **环境感知课程链接: [自动驾驶环境感知 - 深蓝学院 ](https://www.shenlanxueyuan.com/my/course/538)**
 
@@ -34,17 +34,16 @@
 
 ## 2 图像视觉感知
 
-### 2.1 2D感知任务
+### 2.1 目标检测任务
 
 1. RCNN系列
 2. Yolo系列
 3. SSD
 4. CenterNet
 5. FCOS
+6. PSMNet
 
-### 2.2 3D感知任务
-
-1. PSMNet
+### 2.2 语义分割任务
 
 
 <br />
@@ -56,11 +55,11 @@
 
 ### 3.1 目标检测任务
 
-1. PointPillar
+1. [PointPillar](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E5%88%86%E5%89%B2%E4%BB%BB%E5%8A%A1/RandLA.md)
 
 ### 3.2 分割任务
 
-1. RandLA
+1. [RANDLA](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E5%88%86%E5%89%B2%E4%BB%BB%E5%8A%A1/RandLA.md)
 
 <br />
 
