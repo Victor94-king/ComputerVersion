@@ -45,13 +45,11 @@ Github链接：[有关于环境感知方面的网络介绍及代码链接](https
 
 ![1681484705903](image/pointnet/1681484705903.png)
 
-
-首先对于一个N * 3 的点云数据，通过一个T-Net(这个目前已经没人用了，感兴趣的可以自己去了解下) ， 3维的数据通过几个共享权重的mlp ，这里可以看成是升维从3维数据升高至最终的1024维信息，**然后是PointNet核心:  通过对这N个点的1024维的数据做maxpooling,  从而代表全局特征信息的1024个点的信息。** 最终再经过几个mlp从而达到分类的任务。 
+首先对于一个N * 3 的点云数据，通过一个T-Net(这个目前已经没人用了，感兴趣的可以自己去了解下) ， 3维的数据通过几个共享权重的mlp ，这里可以看成是升维从3维数据升高至最终的1024维信息，**然后是PointNet核心:  通过对这N个点的1024维的数据做maxpooling,  从而代表全局特征信息的1024个点的信息。** 最终再经过几个mlp从而达到分类的任务。
 
 而对于语义分割的任务，由于其是point-wise feature ,  所以需要融合局部和全局的特征，这里PointNet就直接将1024 维提的全局信息 复制 N份直接拼接上之前的N * 64维的数据，得到一个N * 1088维度的信息，再通过一系列的mlp 从而将1088维的信息 降低到m类里。
 
 从这里就可以发现PointNet的核心其实就在于提取全局特征的max_Pooling，而对于语义分割任务来说，其只结合了全局的信息，并没有整合邻域的信息(这个在pointnet++上有体现)。
-
 
 <br />
 
@@ -66,11 +64,11 @@ Github链接：[有关于环境感知方面的网络介绍及代码链接](https
 
 <br />
 
---- 
+---
 
 ## 代码复现
 
-源码链接:
+源码链接: [源代码Git连接](https://github.com/Victor94-king/ComputerVersion/tree/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/PointNet)
 
 数据连接: [MobelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)
 
@@ -124,7 +122,6 @@ class PointNet(nn.Module):
             point_set[:, [0, 2]] = point_set[:, [0, 2]].dot(rotation_matrix)  # random rotation ? 绕着Y轴转?
             point_set += np.random.normal(0, 0.02, size=point_set.shape)  # Gaussian jitter jitter
 ```
-
 
 <br />
 
