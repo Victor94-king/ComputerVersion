@@ -1,11 +1,10 @@
-# 3D视觉感知之双目深度估计PSMNet: Pyramid Stereo Matching Network
+# 双目深度估计PSMNet: Pyramid Stereo Matching Network
 
 论文地址: [[1803.08669] Pyramid Stereo Matching Network (arxiv.org)](https://arxiv.org/abs/1803.08669)
 
 代码地址: [JiaRenChang/PSMNet: Pyramid Stereo Matching Network (CVPR2018) (github.com)](https://github.com/JiaRenChang/PSMNet)
 
 Github链接 :[GIthub链接](https://github.com/Victor94-king/ComputerVersion)
-
 
 <br />
 
