@@ -58,9 +58,10 @@
 
 ### 3.1 目标检测任务
 
-1. [PointNet(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/PointNet.md)
-2. [PointNet++(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/点云视觉感知/目标检测任务/PointNet++.md)
-3. [PointPillar(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E5%88%86%E5%89%B2%E4%BB%BB%E5%8A%A1/RandLA.md)
+1. ISS算法(已完成)
+2. [PointNet(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/PointNet.md)
+3. [PointNet++(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/点云视觉感知/目标检测任务/PointNet++.md)
+4. [PointPillar(已完成)](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E5%88%86%E5%89%B2%E4%BB%BB%E5%8A%A1/RandLA.md)
 
 ### 3.2 分割任务
 
