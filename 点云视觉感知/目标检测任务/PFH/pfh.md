@@ -1,5 +1,9 @@
 # Feature Description特征描述 - PFH & FPFH算法
 
+代码链接 : [github](https://github.com/Victor94-king/ComputerVersion/blob/main/%E7%82%B9%E4%BA%91%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/PFH/pfh.py)
+
+Github链接：[有关于环境感知方面的网络介绍及代码链接](https://github.com/Victor94-king/ComputerVersion)
+
 ## 1. 背景
 
 上一章介绍了点云的[特征提取](https://blog.csdn.net/victor_manches/article/details/130417018?spm=1001.2014.3001.5502)ISS算法 ，对于提取每帧图片后的任务就是进行特征描述，对于同样的物体，将其进行旋转和平移其特征描述值应该不变性。 传统的方法有两种主流算法 , :
@@ -67,8 +71,6 @@ FPFH实际上是PFH的一种改进，主要是
 
 
 ## 3. 代码实现
-
-代码实现放在了git上:
 
 对于PFH的话核心在于计算所有两两之间的特征这个体现在了PFH.cal_group函数中:
 
